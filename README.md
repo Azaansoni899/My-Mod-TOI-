@@ -192,50 +192,50 @@ Can Vent With Body: Toggle whether players can vent with bodies
 Crewmate Team
 The special roles in the Crewmate Team. The goal of the Crewmate Team is to combine their abilities and knowledge to find the Impostors. The Crewmate Team will win if all Impostors are ejected or killed.
 
-Sheriff
+## Sheriff
 The Sheriff is a role that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
 
 Custom Options
-Doctor
+## Doctor
 The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
 
 Custom Options
-Agent
+## Agent
 The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
 
 Custom Options
-Detective
+## Detective
 The Detective is a role that can see footprints and get extra information when reporting bodies (They will get a body report in chat only they can see, which shows time of death and if the body was moved or not). They should use this ability to track down Impostors, but they should also be careful not to frame the wrong person.
 
 Custom Options
-Plumber
+## Plumber
 The Plumber is a role that can use vents to travel around. They can also stay in vents to observe the room. But they should be careful not to be suspected as the Impostor or noticed by the Impostor.
 
 Custom Options
-Informant
+## Informant
 The Informant is a role that can see other roles after they are finished with ALL their tasks. They will be "Informed" after finishing tasks, but should also be careful of Impostors that are notified about them. The Informant can only be informed or revealed after completing at least one task.
 
 NOTE: Comms Anonymous Sabotage (if toggled on) will prevent Informant from seeing roles, even in meetings. This is the counterplay to Informant.
 
 Custom Options
-Trickster
+## Trickster
 The Trickster is a role that can create a decoy to trick the Impostor. If the Impostor kills the decoy, they will go into kill cooldown which will slow them down. However, the Sheriff is also able to kill decoys. The Trickster may also swap positions with their decoys to avoid danger or cover more ground quicker.
 
 Custom Options
-Operative
+## Operative
 The Operative is a role that can place down gadgets that allow them to track other players. A sticky tracker can be placed down that'll stick to other players and reveal them for the duration. An AOE sensor can be placed down to reveal players in an area (revealed players will be anonymous) for a duration. All revealed players will be shown on the map. The Operative gadgets are only visible to the Operative.
 
 Custom Options
-Mayor
+## Mayor
 The Mayor is a role that gets additional votes they can use to influence the results of a meeting. They are able to store votes each meeting and can add votes to any player in the meeting (or skip vote) at any time, as long as they have not locked in their final vote. They should use this if they want to force someone to be voted out or force a skip vote. But they should be careful not to reveal themselves too early.
 
 Custom Options
-Other Teams
-Jester
+### Other Teams
+## Jester
 The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose. The have extra abilities to help them act suspicious, such as dragging bodies, leaving bloody footprints and using vents.
 
 Custom Options
-Arsonist
+## Arsonist
 The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They need to do this before the Crewmate Team wins by finding all the Impostors. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
 
 Custom Options
@@ -254,7 +254,7 @@ Tier 1 Impostors:
 Dragger has the drag/drop & dispose body abilities
 Morphling has the sample & disguise abilities
 Deceiver has the decoy & swap abilities
-Tier 2 Impostors:
+### Tier 2 Impostors:
 Hitman has the combined abilities of Dragger and Morphling
 Joker has the combined abilities of Morphling and Deceiver
 Any Impostor without a special Impostor role will be a normal vanilla Impostor
@@ -302,7 +302,7 @@ This functionality has been removed from 1.6.0 onwards. Please look into using U
 Can this mod work with controllers?
 This mod was not made to be compatible with controllers in mind; it was intended to be played with keyboard and mouse.
 
-Troubleshooting
+### Troubleshooting
 The mod isn't installed or game doesn't launch
 Please make sure you're using the latest version of the mod and the correct version of Among Us for it
 Please make sure you're using Windows, this mod is not compatible on Android, Mac or any other OS/devices
@@ -315,7 +315,7 @@ You might be missing some cpp libs (software libraries used by the mod); please 
 The mod still doesn't work or found a bug?
 You can raise an issue within GitHub documenting your issue. You will need to be logged into GitHub to do this. For any bugs, take a quick check if your bug has already been listed under the below Known Issues or if it has already been reported. Please give as much detail as possible regarding the issue, including steps to reproduce it if possible. If it exists, please also attach your LogOutput.log, generated in the Among Us\BepInEx\ folder.
 
-Known Issues
+### Known Issues
 When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
 
 Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
