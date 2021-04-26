@@ -59,10 +59,10 @@ Releases and Compatibility
 
 | Version:  |Release:   |
 | ------------ | -------|
-|v2021.4.12s & v2021.4.14s|	|v1.8.6.1|
-v2021.4.12s & v2021.4.14s	v1.8.6	
-v2021.4.12s & v2021.4.14s	v1.8.2.1	
-v2021.3.31.3s	v1.8.1	
+|v2021.4.12s & v2021.4.14s|	| v1.8.6.1 |
+v2021.4.12s & v2021.4.14s	| v1.8.6 |	
+v2021.4.12s & v2021.4.14s	| v1.8.2.1 |	
+v2021.3.31.3s	| v1.8.1 |	
 v2021.3.31.3s	v1.7.0	
 v2021.3.5s	v1.6.1	
 v2021.3.5s	v1.6.0	
@@ -72,6 +72,7 @@ v2021.3.5s	v1.3.0
 v2020.12.9s	v1.2.0	
 v2020.12.9s	v1.1.0	
 v2020.12.9s	v1.0.
+
 Changelog
 Updating the Mod
 It is recommended to keep separate folders for each version of Town Of Impostors instead of overwriting. Even if the Among Us version between them is the same and it appears that the bundled files are the same in each release. But if you're intent updating an existing version of the mod with a new version that is compatible to that version of Among Us:
