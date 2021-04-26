@@ -1,5 +1,5 @@
 # My-Mod-TOI-
-Installation
+### Installation
 If you are updating your Town Of Impostors version, please hop to this section here.
 
 Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
@@ -14,6 +14,7 @@ Extract the contents TownOfImpostors.zip into the copied folder you created.
 
 Ensure the copied directory that is being modded now contains at least the following:
 
+
 .
 ├── Among Us_Data
 ├── BepInEx <---
@@ -26,15 +27,16 @@ Ensure the copied directory that is being modded now contains at least the follo
 ├── UnityCrashHandler32.exe
 ├── UnityPlayer.dll
 └── winhttp.dll <---
+
 Still unsure? Click this for an image of what it should look like if you have hidden file name extensions
 Make sure to launch the game via the Among Us.exe from this directory. Please note that the first time launching the game with this mod may take a while - give it one minute before worrying that nothing is appearing.
-Verifying installation success
+# Verifying installation success
 
 Launching the game via Among Us.exe
 In the top-left corner of the main menu, below the Among Us version, you should see Town Of Impostors vX.X.X Mod by AJMix to indicate the mod is running and has been successfully installed.
 If you don't see this message or have any other issues, please take a look at the troubleshooting section.
 
-Version Mismatch Checker:
+# Version Mismatch Checker:
 
 Starting from v1.8.1 onwards, there is now a version mismatch checker that'll make sure that all users in the lobby are using the same game version. If a red message appears on the top right stating "Warning: Player Version Mismatch", then there's a potential that someone in the lobby is not using the correct version.
 Sometimes this warning message can appear when something strange occurs, even if all users in the lobby are using the same version. If you're 100% sure all users in the lobby are using the same mod version, simply have players rejoin the lobby.
@@ -44,17 +46,17 @@ Starting from v1.5.0 onwards, there is a new reset custom settings button in the
 
 Starting from v1.6.0 onwards, this mod should now be compatible with Mod Manager by MatuxGG. Please note that using the Mod Manager to install the mod still does not guarantee that the mod will work as intended.
 
-Saving and Loading
+### Saving and Loading
 Starting from v1.8.1, you can now save and load your settings. This is to help lower the issue of settings completely messing up between versions. You should find a new TownOfImpostorsSettings.txt in the Among Us folder where the mod is installed. This can also be passed onto others so they can play with your settings!
 
 From v1.8.6 onwards, there are now 5 Save & Load slots. You can use these to save multiple settings. You will be able to find them as TownOfImpostorsSettings_1.txt, TownOfImpostorsSettings_2.txt etc. inside of the TownOfImpostors_Data folder. Please launch the game or create the folder yourself if you don't see it. These settings can be passed onto others. If you were using the previous TownOfImpostorsSettings.txt before, please move this into the folder and rename it to TownOfImpostorsSettings_1.txt.
 
-Uninstalling the Mod
+### Uninstalling the Mod
 If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
 If you did not, and you unzipped the mod into your main Among Us folder, then you have to delete the following folders & files:
 BepInEx folder, mono folder, doorstop_config.ini, winhttp.dll
 Releases and Compatibility
-Among Us Version	Mod Version	Link
+|Among Us Version: |	|Mod Version:  |Link:  |
 v2021.4.12s & v2021.4.14s	v1.8.6.1	Download
 v2021.4.12s & v2021.4.14s	v1.8.6	Download
 v2021.4.12s & v2021.4.14s	v1.8.2.1	Download
